@@ -4302,6 +4302,12 @@
   "/pixiv/user/illustfollows": [
     "ClarkeCheng"
   ],
+  "/pixiv/user/novels/:id": [
+    "TonyRL"
+  ],
+  "/pixiv/novel/series/:id": [
+    "TonyRL"
+  ],
   "/pixiv/ranking/:mode/:date?": [
     "EYHN"
   ],

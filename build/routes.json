@@ -42654,6 +42654,66 @@
         "description": ":::warning\n  Only for self-hosted\n  :::",
         "location": "illustfollow.ts"
       },
+      "/user/novels/:id": {
+        "path": "/user/novels/:id",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/pixiv/user/novels/27104704",
+        "parameters": {
+          "id": "User id, available in user's homepage URL"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.pixiv.net/users/:id/novels"
+            ]
+          }
+        ],
+        "name": "User Novels",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "location": "novels.ts"
+      },
+      "/novel/series/:id": {
+        "path": "/novel/series/:id",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/pixiv/novel/series/114514",
+        "parameters": {
+          "id": "novel series id"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.pixiv.net/novel/series/:id"
+            ]
+          }
+        ],
+        "name": "Novel Series",
+        "maintainers": [
+          "TonyRL"
+        ],
+        "location": "novelseries.ts"
+      },
       "/ranking/:mode/:date?": {
         "path": "/ranking/:mode/:date?",
         "categories": [

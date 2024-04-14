@@ -10503,6 +10503,22 @@
         "target": "/pixiv/user/illustfollows"
       },
       {
+        "title": "User Novels",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/users/:id/novels"
+        ],
+        "target": "/pixiv/user/novels/:id"
+      },
+      {
+        "title": "Novel Series",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/novel/series/:id"
+        ],
+        "target": "/pixiv/novel/series/:id"
+      },
+      {
         "title": "User Activity",
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
